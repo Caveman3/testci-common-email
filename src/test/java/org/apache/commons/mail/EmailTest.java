@@ -172,3 +172,4 @@ public class EmailTest
 			assertEquals(emailStr, email.getFromAddress().getAddress());
 		}
 	}
+}
