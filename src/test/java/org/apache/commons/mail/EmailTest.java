@@ -111,7 +111,7 @@ public class EmailTest
 		catch (EmailException e)
 		{
 			// Verify the exception message matches expected behavior
-			assertEquals("Cannot find valid hostname for mail session ", e.getMessage());
+			assertEquals("Cannot find valid hostname for mail session", e.getMessage());
 		}
 	}
 
